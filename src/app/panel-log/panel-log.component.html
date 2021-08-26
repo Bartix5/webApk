@@ -1,0 +1,29 @@
+<div class="mb-3 row">
+  <label for="staticEmail" class="col-sm-2 col-form-label">Login</label>
+  <div class="col-sm-2">
+    <input type="email" class="form-control" id="exampleFormControlInput1"
+           [disabled]="!activeButton" (input)="updateName($event)">
+  </div>
+</div>
+<div class="mb-3 row">
+  <label for="inputPassword" class="col-sm-2 col-form-label">Hasło</label>
+  <div class="col-sm-2">
+    <input type="password" class="form-control" id="inputPassword"
+           [disabled]="!activeButton" (input)="checkPass($event)">
+  </div>
+</div>
+<div class="mb-3 row">
+  <label class="col-sm-2"></label>
+  <div class="col-sm-2">
+    <button type="button" class="btn btn-primary"
+            [disabled]="!activeButton" (click)="welcome()">{{ nameButton }}</button>
+  </div>
+</div>
+<div class="mb-3 row">
+  <label class="col-sm-2"></label>
+  <div class="col-sm-2">
+    <p>{{ welcomeString }}</p>
+  </div>
+</div>
+
+

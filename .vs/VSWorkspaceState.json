@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\nav-basic",
+    "\\src\\app\\panel-log"
+  ],
+  "SelectedNode": "\\src\\app\\panel-log\\panel-log.component.ts",
+  "PreviewInSolutionExplorer": false
+}
